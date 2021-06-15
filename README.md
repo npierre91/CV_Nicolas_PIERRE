@@ -28,3 +28,17 @@ Enfin, la génération du pdf a poser plusieurs problèmes. Le premier étant le
 De plus, le block Preview utilisait pour générer l'affichage du pdf se mettait au premier plan ce qui empêchait la sélection du texte du cv ainsi que tous les liens disponibles tel que le bouton Mode sombre/clair, tel et mailto.
 
 J'ai donc pris la décision de retirer cette partie pour le moment, le temps de trouver comment corriger cela. Pouvoir général automatiquement le pdf est un vrai plus, même si la pré-génération n'est pas un problème en soi.
+
+## Ce que m'a apporter ce projet
+
+### Mode sombre
+
+Tout d'abord, ce projet m'a montré une façon de mettre en place un mode sombre en réact. C'était pas si compliqué à mettre en place, même si l'état du bouton m'a poser quelques soucis. J'ai pu constater d'autres façons de faire cela tel qu'avec ThemeProvider. Je verrai pour faire avec dans un prochain projet !
+
+### Material UI Icons
+
+Ce projet utilise des icons SVG mis à disposition via Material UI. J'ai pu apprendre à utiliser des icons importés dans un projet Réact, ainsi que la façon de modifier leurs tailles facilement. Une belle découverte.
+
+### Expérience Réact
+
+Ce second projet m'a aidé à améliorer mes connaissances de Réact. J'ai aussi pu découvrir une façon différente d'utiliser le CSS.
