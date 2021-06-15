@@ -21,13 +21,17 @@ Le changement de mode était correctement pris en compte. L'auteur de la vidéo 
 
 J'ai donc choisit de le retirer.
 
-### Génération de pdf
+### Génération de PDF
 
-Enfin, la génération du pdf a posé plusieurs problèmes. Le premier étant le manque de contrôles sur le pdf final. Le cv généré ne prenait en compte qu'une page en coupant à l'arrache le texte affiché en bas de page.
+Enfin, la génération du PDF a posé plusieurs problèmes. Le premier étant le manque de contrôles sur le PDF final. Le cv généré ne prenait en compte qu'une page en coupant à l'arrache le texte affiché en bas de page.
 
-De plus, le block Preview utilisait pour générer l'affichage du pdf se mettait au premier plan ce qui empêchait la sélection du texte du cv ainsi que tous les liens disponibles tel que le bouton pour changer de mode, tel et mailto.
+De plus, le block Preview utilisait pour générer l'affichage du PDF se mettait au premier plan ce qui empêchait la sélection du texte du cv ainsi que tous les liens disponibles tel que le bouton pour changer de mode, tel et mailto.
 
-J'ai donc pris la décision de retirer cette partie pour le moment, le temps de trouver comment corriger cela. Pouvoir général automatiquement le pdf est un vrai plus, même si la pré-génération n'est pas un problème en soi.
+J'ai donc pris la décision de retirer cette partie pour le moment, le temps de trouver comment corriger cela. Pouvoir général automatiquement le PDF est un vrai plus, même si la pré-génération n'est pas un problème en soi.
+
+## Améliorations apportées au projet
+
+Je n'ai pas modifier grand chose. A part la correction du bouton de changement de mode et quelques retouches mineures tel qu'une transition lors du changement de mode ou des simplifications mineures du code, le projet est resté tel quel dans l'ensemble.
 
 ## Ce que m'a apporté ce projet
 
@@ -41,4 +45,4 @@ Ce projet utilise des icons SVG mis à disposition via Material UI. J'ai pu appr
 
 ### Expérience Réact
 
-Ce second projet m'a aidé à améliorer mes connaissances de Réact. J'ai aussi pu découvrir une façon différente d'utiliser le CSS.
+Ce second projet m'a aidé à améliorer mes connaissances de Réact. J'ai aussi pu découvrir une façon différente d'utiliser le CSS. Le CSS est segmenté comme avec SASS, mais très répartir un peu partout dans le code (toutefois proche du Component principal qui l'utilise). Cela a au moins l'avantage de ne pas être compilé comme le demande SASS.
