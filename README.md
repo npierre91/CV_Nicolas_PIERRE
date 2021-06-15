@@ -47,7 +47,7 @@ Ce projet utilise des icons SVG mis à disposition via Material UI. J'ai pu appr
 
 Ce second projet m'a aidé à améliorer mes connaissances de Réact. J'ai aussi pu découvrir une façon différente d'utiliser le CSS. Le CSS est segmenté comme avec SASS, mais très répartir un peu partout dans le code (toutefois proche du Component principal qui l'utilise). Cela a au moins l'avantage de ne pas être compilé comme le demande SASS.
 
-### Screenshots du résultat
+## Screenshots du résultat
 
 Mode claire :
 ![Mode clair](screenshots/mode_clair.png)
