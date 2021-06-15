@@ -4,7 +4,7 @@ Projet développé à l'aide d'un cours vidéo : [Comment Créer un CV en Ligne 
 
 ## Intérêts de ce projet
 
-Ce projet a pour but de me familiariser à Réact. De plus, il utilise un système de mode sombre et lumière, de plus en plus utiliser sur les sites. Il a ici l'avantage de garder en mémoire le mode choisit pour le réutiliser ultérieurement. Et enfin, ce projet me montrera une façon de générer un pdf automatiquement.
+Ce projet a pour but de me familiariser à Réact. De plus, il utilise un système de mode sombre et clair, de plus en plus utilisé sur les sites. Il a aussi l'avantage de garder en mémoire le mode choisit pour le réutiliser ultérieurement. Et enfin, ce projet me montrera une façon de générer un pdf automatiquement.
 
 Pour résumer, les intérêts seront de :
 - Se familiariser à Réact
@@ -13,19 +13,19 @@ Pour résumer, les intérêts seront de :
 
 ## Problèmes rencontrés 
 
-Le projet s'est bien déroulé dans l'ensemble. Toutefois le bouton pour le darkmode n'était pas complètement opérationnel, tout comme la génération du pdf.
+Le projet s'est bien déroulé dans l'ensemble. Toutefois le bouton pour le mode sombre n'était pas complètement opérationnel, tout comme la génération du pdf.
 
 ### Mode sombre
 
-Le changement de mode était correctement pris en compte. L'auteur de la vidéo avait choisit d'ajouter un système d'état local qui posait des problèmes après un refresh. L'affichage du bouton n'était pas toujours celui correspondant au mode chargé. De plus, cet ajout n'apportait rien et complexifié le code sans raison.
+Le changement de mode était correctement pris en compte. L'auteur de la vidéo avait choisit d'ajouter un système d'état local (Hooks) qui posait des problèmes après un refresh. L'affichage du bouton n'était pas toujours celui correspondant au mode chargé. De plus, cet ajout n'apportait rien et complexifiait le code sans raison.
 
 J'ai donc choisit de le retirer.
 
 ### Génération de pdf
 
-Enfin, la génération du pdf a poser plusieurs problèmes. Le premier étant le manque de contrôles sur le pdf final. Le cv généré ne prenait un compte qu'une page en coupant à l'arrache le texte affiché en bas de page.
+Enfin, la génération du pdf a posé plusieurs problèmes. Le premier étant le manque de contrôles sur le pdf final. Le cv généré ne prenait en compte qu'une page en coupant à l'arrache le texte affiché en bas de page.
 
-De plus, le block Preview utilisait pour générer l'affichage du pdf se mettait au premier plan ce qui empêchait la sélection du texte du cv ainsi que tous les liens disponibles tel que le bouton Mode sombre/clair, tel et mailto.
+De plus, le block Preview utilisait pour générer l'affichage du pdf se mettait au premier plan ce qui empêchait la sélection du texte du cv ainsi que tous les liens disponibles tel que le bouton pour changer de mode, tel et mailto.
 
 J'ai donc pris la décision de retirer cette partie pour le moment, le temps de trouver comment corriger cela. Pouvoir général automatiquement le pdf est un vrai plus, même si la pré-génération n'est pas un problème en soi.
 
