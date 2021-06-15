@@ -49,6 +49,12 @@ Ce second projet m'a aidé à améliorer mes connaissances de Réact. J'ai aussi
 
 ### Screenshots du résultat
 
-![Mode clair](https://i.imgur.com/t72ybA7.png)
-![Mode sombre](https://i.imgur.com/IMCzBSN.png)
-![Mobile](https://i.imgur.com/FYZZ5ah.png)
+Mode claire :
+![Mode clair](screenshots/mode_clair.png)
+
+Mode sombre :
+![Mode sombre](screenshots/mode_sombre.png)
+
+Affichage responsive sur mobiles :
+
+![Mobile](screenshots/mobile.png)
