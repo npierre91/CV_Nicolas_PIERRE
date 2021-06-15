@@ -29,7 +29,7 @@ De plus, le block Preview utilisait pour générer l'affichage du pdf se mettait
 
 J'ai donc pris la décision de retirer cette partie pour le moment, le temps de trouver comment corriger cela. Pouvoir général automatiquement le pdf est un vrai plus, même si la pré-génération n'est pas un problème en soi.
 
-## Ce que m'a apporter ce projet
+## Ce que m'a apporté ce projet
 
 ### Mode sombre
 
