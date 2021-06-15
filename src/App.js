@@ -20,7 +20,7 @@ function App() {
     }, 300);
   };
   return (
-    <Preview id={"cv-print"}>
+    // <Preview id={"cv-print"}>
       <div className="App">
         <div className="grid__container">
           <div className="sidebar">
@@ -37,7 +37,7 @@ function App() {
           </div>
         </div>
       </div>
-    </Preview>
+    // </Preview>
   );
 }
 
