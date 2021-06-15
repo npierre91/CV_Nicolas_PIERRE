@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projet développé à l'aide d'un cours vidéo : [Comment Créer un CV en Ligne en React.js (Hooks version 2021) - Tutoriel React pour Débutant](https://www.youtube.com/watch?v=V6VdW5J2juE). L'auteur utilise un bout de code trouvé sur ce lien : [Easy Dark Mode Switch with React and localStorage](https://aleksandarpopovic.com/Easy-Dark-Mode-Switch-with-React-and-localStorage/).
 
-## Available Scripts
+## Intérêts de ce projet
 
-In the project directory, you can run:
+Ce projet a pour but de me familiariser à Réact. De plus, il utilise un système de mode sombre et lumière, de plus en plus utiliser sur les sites. Il a ici l'avantage de garder en mémoire le mode choisit pour le réutiliser ultérieurement. Et enfin, ce projet me montrera une façon de générer un pdf automatiquement.
 
-### `npm start`
+Pour résumer, les intérêts seront de :
+- Se familiariser à Réact
+- Mettre en place un mode sombre
+- Générer un pdf
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Problèmes rencontrés 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Le projet s'est bien déroulé dans l'ensemble. Toutefois le bouton pour le darkmode n'était pas complètement opérationnel, tout comme la génération du pdf.
 
-### `npm test`
+### Mode sombre
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Le changement de mode était correctement pris en compte. L'auteur de la vidéo avait choisit d'ajouter un système d'état local qui posait des problèmes après un refresh. L'affichage du bouton n'était pas toujours celui correspondant au mode chargé. De plus, cet ajout n'apportait rien et complexifié le code sans raison.
 
-### `npm run build`
+J'ai donc choisit de le retirer.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Génération de pdf
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Enfin, la génération du pdf a poser plusieurs problèmes. Le premier étant le manque de contrôles sur le pdf final. Le cv généré ne prenait un compte qu'une page en coupant à l'arrache le texte affiché en bas de page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+De plus, le block Preview utilisait pour générer l'affichage du pdf se mettait au premier plan ce qui empêchait la sélection du texte du cv ainsi que tous les liens disponibles tel que le bouton Mode sombre/clair, tel et mailto.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+J'ai donc pris la décision de retirer cette partie pour le moment, le temps de trouver comment corriger cela. Pouvoir général automatiquement le pdf est un vrai plus, même si la pré-génération n'est pas un problème en soi.
