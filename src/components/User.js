@@ -10,28 +10,28 @@ const User = () => {
   return (
     <div className="user">
       <img src="./media/avatar.png" alt="" className="user__avatar" />
-      <h1 className="user__name">Vincent LISITA</h1>
-      <p className="user__profession">Développeur Front-end</p>
+      <h1 className="user__name">Nicolas PIERRE</h1>
+      <p className="user__profession">Développeur Fullstack</p>
       <div className="user__infos">
         <p className="user__info">
           <HomeIcon />
-          43 rue Bourgonner, 49000 ANGERS
+          9 rue d'Australie, 91300 Massy
         </p>
         <p className="user__info">
           <PhoneIcon />
-          <a href="te:+33660469119">06 60 46 91 19</a>
+          <a href="te:+33651897248">06 51 89 72 48</a>
         </p>
         <p className="user__info">
           <MailIcon />
-          <a href="mailto:lisita_vincent@yahoo.fr">lisita_vincent@yahoo.fr</a>
+          <a href="mailto:npierre9@yahoo.fr">npierre9@yahoo.fr</a>
         </p>
         <p className="user__info">
           <EventIcon />
-          Date de naissance : 26 décembre 1986
+          Date de naissance : 09 Août 1998
         </p>
         <p className="user__info">
           <LocationOnIcon />
-          Lieu de naissance : Les-Pavillons-sous-Bois
+          Lieu de naissance : Massy
         </p>
       </div>
     </div>

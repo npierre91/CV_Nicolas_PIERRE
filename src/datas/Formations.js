@@ -1,18 +1,14 @@
 const formationsData = [
+
   {
-    title: "Licence Professionnelle Informatique Option Logiciels Libres",
-    date: "2012",
-    location: "ANGERS",
+    title: "Diplôme d'Ingénieur Civil des Mines de Saint-Etienne",
+    date: "2022",
+    location: "Saint-Etienne",
   },
   {
-    title: "BTS Informatique de Gestion Option Développeur d'applications",
-    date: "2007",
-    location: "LAVAL",
-  },
-  {
-    title: " Baccalauréat STT Informatique et Gestion",
-    date: "2005",
-    location: "LAVAL",
+    title: "Baccalauréat S option SI spécialité Maths obtenu mention Bien",
+    date: "2016",
+    location: "Antony",
   },
 ];
 export default formationsData;

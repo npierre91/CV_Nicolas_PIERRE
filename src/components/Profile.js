@@ -1,9 +1,9 @@
 import React from "react";
 
-const Profil = () => {
+const Profile = () => {
   return (
     <div className="profil mb5">
-      <h2 className="h2">Profils</h2>
+      <h2 className="h2">Profil</h2>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat
         possimus magni eos aliquid aliquam optio. Porro, non! Ullam quod
@@ -16,4 +16,4 @@ const Profil = () => {
   );
 };
 
-export default Profil;
+export default Profile;

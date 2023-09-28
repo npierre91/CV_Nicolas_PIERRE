@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Skill = ({title, rating}) => {
+const Skill = ({ title, rating }) => {
     return (
         <div className="skill">
             <p className="skill__title">{title}</p>
