@@ -1,9 +1,11 @@
 import React from "react";
+import { useTranslation } from "../lib/intl";
 
 const Experiences = ({ datas }) => {
+  const { t } = useTranslation()
   return (
     <div className="cursus mb3">
-      <h2 className="h2">Expériences Professionnelles</h2>
+      <h2 className="h2">{t('EXPERIENCE_TITLE')}</h2>
       {datas.map((item, key) => (
         <div className="grid__row" key={key}>
           <div className="grid__item">

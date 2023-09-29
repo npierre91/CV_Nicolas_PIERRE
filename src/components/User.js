@@ -5,33 +5,35 @@ import PhoneIcon from "@material-ui/icons/Phone";
 import MailIcon from "@material-ui/icons/Mail";
 import EventIcon from "@material-ui/icons/Event";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
+import { useTranslation } from "../lib/intl";
 
 const User = () => {
+  const { t } = useTranslation()
   return (
     <div className="user">
       <img src="./media/avatar.png" alt="" className="user__avatar" />
-      <h1 className="user__name">Nicolas PIERRE</h1>
-      <p className="user__profession">Développeur Fullstack</p>
+      <h1 className="user__name">{t("USER_FULLNAME")}</h1>
+      <p className="user__profession">{t("USER_PROFESSION")}</p>
       <div className="user__infos">
         <p className="user__info">
           <HomeIcon />
-          9 rue d'Australie, 91300 Massy
+          {t("USER_ADDRESS")}
         </p>
         <p className="user__info">
           <PhoneIcon />
-          <a href="te:+33651897248">06 51 89 72 48</a>
+          <a href="te:+33651897248">{t("USER_PHONE")}</a>
         </p>
         <p className="user__info">
           <MailIcon />
-          <a href="mailto:npierre9@yahoo.fr">npierre9@yahoo.fr</a>
+          <a href="mailto:npierre9@yahoo.fr">{t("USER_EMAIL")}</a>
         </p>
         <p className="user__info">
           <EventIcon />
-          Date de naissance : 09 Août 1998
+          {t("USER_BIRTHDATE")}
         </p>
         <p className="user__info">
           <LocationOnIcon />
-          Lieu de naissance : Massy
+          {t("USER_BIRTHPLACE")}
         </p>
       </div>
     </div>
