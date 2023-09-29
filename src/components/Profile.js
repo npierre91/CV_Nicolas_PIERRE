@@ -1,9 +1,11 @@
 import React from "react";
+import { useTranslation } from "../lib/intl";
 
 const Profile = () => {
+  const { t } = useTranslation()
   return (
     <div className="profil mb5">
-      <h2 className="h2">Profil</h2>
+      <h2 className="h2">{t('PROFILE_TITLE')}</h2>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat
         possimus magni eos aliquid aliquam optio. Porro, non! Ullam quod
