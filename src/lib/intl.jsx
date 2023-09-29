@@ -100,6 +100,7 @@ const useTranslation = () => {
 
 export {
     fallbackLanguage,
+    availableLanguages,
     IntlLangContext,
     IntlLangProvider,
     useIntlLangContext,

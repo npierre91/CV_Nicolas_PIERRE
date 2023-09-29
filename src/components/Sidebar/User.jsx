@@ -5,7 +5,7 @@ import PhoneIcon from "@material-ui/icons/Phone";
 import MailIcon from "@material-ui/icons/Mail";
 import EventIcon from "@material-ui/icons/Event";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
-import { useTranslation } from "../lib/intl";
+import { useTranslation } from "../../lib/intl";
 
 const User = () => {
   const { t } = useTranslation()

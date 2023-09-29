@@ -1,11 +1,12 @@
 import "./App.css";
-import User from "./components/User";
-import Skills from "./components/Skills";
-import Profile from "./components/Profile";
-import FormationsExperiences from "./components/FormationsExperiences";
-import ExternalLinks from "./components/ExternalLinks";
+import User from "./components/Sidebar/User";
+import Skills from "./components/Sidebar/Skills";
+import Profile from "./components/Main/Profile";
+import FormationsExperiences from "./components/Main/FormationsExperiences";
+import ExternalLinks from "./components/Sidebar/ExternalLinks";
 import { BrowserRouter } from "react-router-dom";
 import IntlProvider from "./context/IntlProvider";
+import LanguageSelector from "./components/Sidebar/LocaleSelector/LocaleSelector";
 // import { Preview, print } from "react-html2pdf";
 // import PictureAsPdfIcon from "@material-ui/icons/PictureAsPdf";
 
@@ -17,6 +18,8 @@ function App() {
           <div className="grid__container">
             <div className="sidebar">
               <div className="actions">
+                <LanguageSelector />
+                {/* {<button onClick={()=>{}}><LanguageSelector /></button>} */}
                 {/* <button onClick={() => print('CV-Nicolas-PIERRE', 'pdf')}><PictureAsPdfIcon /></button> */}
               </div>
               <User />

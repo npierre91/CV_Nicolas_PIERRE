@@ -2,7 +2,7 @@ import React from "react";
 import "./Skills.css";
 import Skill from "./Skill";
 import Interests from "./Interests";
-import { useTranslation } from "../lib/intl";
+import { useTranslation } from "../../lib/intl";
 
 const Skills = () => {
   const { t } = useTranslation()

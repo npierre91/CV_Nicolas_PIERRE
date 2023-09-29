@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { useTranslation } from '../lib/intl';
+import { useTranslation } from '../../lib/intl';
 
 const ExternalLinks = () => {
     const { t } = useTranslation()

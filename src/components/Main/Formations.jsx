@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTranslation } from '../lib/intl';
+import { useTranslation } from '../../lib/intl';
 
 const Formations = ({ datas }) => {
   const { t } = useTranslation()

@@ -1,7 +1,7 @@
 import React from 'react';
 import SportsEsportsIcon from "@material-ui/icons/SportsEsports";
 import ScubaDivingIcon from '@mui/icons-material/ScubaDiving';
-import { useTranslation } from '../lib/intl';
+import { useTranslation } from '../../lib/intl';
 
 const Interests = () => {
   const { t } = useTranslation()
