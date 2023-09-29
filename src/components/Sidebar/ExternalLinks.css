@@ -1,0 +1,13 @@
+.external__links {
+    text-align: left;
+    padding: var(--spacing-3) 0 var(--spacing-1) 0;
+}
+
+.external__link {
+    display: flex;
+}
+
+.external__link svg {
+    color: var(--icon-color);
+    margin-right: 1rem;
+}
