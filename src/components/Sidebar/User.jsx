@@ -5,6 +5,7 @@ import PhoneIcon from "@material-ui/icons/Phone";
 import MailIcon from "@material-ui/icons/Mail";
 import EventIcon from "@material-ui/icons/Event";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
+import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
 import { useTranslation } from "../../lib/intl";
 
 const User = () => {
@@ -34,6 +35,10 @@ const User = () => {
         <p className="user__info">
           <LocationOnIcon />
           {t("USER_BIRTHPLACE")}
+        </p>
+        <p className="user__info">
+          <DirectionsCarIcon />
+          {t("USER_DRIVING_LICENSE")}
         </p>
       </div>
     </div>

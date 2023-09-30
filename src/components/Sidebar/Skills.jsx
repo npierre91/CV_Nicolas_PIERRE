@@ -1,7 +1,7 @@
 import React from "react";
 import "./Skills.css";
 import Skill from "./Skill";
-import Interests from "./Interests";
+import Interests from "./Interests/Interests";
 import { useTranslation } from "../../lib/intl";
 
 const Skills = () => {
@@ -15,6 +15,7 @@ const Skills = () => {
         <Skill title="REACT" rating="3" />
         <Skill title="GRAPHQL" rating="4" />
         <Skill title="NODE" rating="3" />
+        <Skill title="PYTHON" rating="4" />
       </div>
       <div className="skills">
         <h2 className="h2">{t("LANGUAGE_TITLE")}</h2>

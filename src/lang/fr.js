@@ -26,6 +26,7 @@ const fr = {
     USER_EMAIL: "npierre9@yahoo.fr",
     USER_BIRTHDATE: "Date de naissance: 9 Août 1998",
     USER_BIRTHPLACE: "Lieu de naissance: Massy",
+    USER_DRIVING_LICENSE: "Permis de conduire français",
 
     //INTERESTS section
     INTEREST_TITLE: "Centres d'intérêts",
