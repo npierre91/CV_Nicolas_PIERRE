@@ -37,9 +37,9 @@ const en = {
     INTEREST_2: "Chess",
     INTEREST_2_TEXT: "Regular player on the Chess.com website, intermediate level (1350 ELO in blitz, 1600 ELO in rapid). Recently joined a chess club with the ambition of becoming stronger.",
     INTEREST_3: "Fencing",
-    INTEREST_3_TEXT: "I've been a weekly épée fencer at a club for around 10 years and I occasionally win a few medals in competitions.",
+    INTEREST_3_TEXT: "I've been a weekly épée fencer at a club for around 10 years and I have won a few medals in competitions. I aim at winning even more in the years to come.",
     INTEREST_4: "Scuba diving",
-    INTEREST_4_TEXT: "I train weekly in the pool, I've passed my N2 level and I sometimes take part in diving competitions with my club.",
+    INTEREST_4_TEXT: "I train weekly in the pool, I've passed my N2 level and I take part in diving competitions with my club.",
     INTEREST_5: "Photography",
     INTEREST_5_TEXT: "President of the Ecole des Mines photography and video club for 2019-2020.",
 

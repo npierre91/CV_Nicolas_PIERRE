@@ -10,8 +10,8 @@ const FormationsExperiences = () => {
   const { currentLanguage } = useIntlLangContext()
   return (
     <>
-      <Formations datas={formationsData[currentLanguage]} />
       <Experiences datas={experiencesData[currentLanguage]} />
+      <Formations datas={formationsData[currentLanguage]} />
     </>
   );
 };

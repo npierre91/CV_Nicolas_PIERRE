@@ -37,9 +37,9 @@ const fr = {
     INTEREST_2: "Echecs",
     INTEREST_2_TEXT: "Joueur régulier sur le site Chess.com, niveau intermédiaire (1350 ELO en blitz, 1600 ELO en rapide). Depuis peu inscrit dans un club d'échecs avec pour ambition de devenir plus fort.",
     INTEREST_3: "Escrime",
-    INTEREST_3_TEXT: "Pratique hebdomadaire de l'épée en club depuis environ 10 ans, je gagne parfois quelques médailles en compétitions.",
+    INTEREST_3_TEXT: "Pratique hebdomadaire de l'épée en club depuis environ 10 ans, j'ai gagné quelques médailles en compétitions et je projette d'en gagner davantage.",
     INTEREST_4: "Plongée subaquatique",
-    INTEREST_4_TEXT: "Je m'entraine de manière hebdomadaire en piscine, j'ai passé mon niveau 2 de plongée et je fais parfois des compétitions de plongée sportive en piscine avec mon club.",
+    INTEREST_4_TEXT: "Je m'entraine de manière hebdomadaire en piscine, j'ai passé mon niveau 2 de plongée et je fais des compétitions de plongée sportive en piscine avec mon club.",
     INTEREST_5: "Photographie",
     INTEREST_5_TEXT: "Président du club de photographie et de vidéo de l'Ecole des Mines lors de l'année 2019-2020.",
 
