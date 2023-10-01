@@ -22,7 +22,7 @@ const Interests = () => {
     <div className="interest__list">
       <h2 className="h2">{t("INTEREST_TITLE")}</h2>
       <List >
-        <ListItemButton onClick={handleChange1}>
+        <ListItemButton disableGutters onClick={handleChange1}>
           <ListItemIcon>
             <Icon path={mdiController} size={1} />
           </ListItemIcon>
@@ -32,7 +32,7 @@ const Interests = () => {
         <Collapse in={openInterest1}>
           <p>{t("INTEREST_1_TEXT")}</p>
         </Collapse>
-        <ListItemButton onClick={handleChange2}>
+        <ListItemButton disableGutters onClick={handleChange2}>
           <ListItemIcon>
             <Icon path={mdiChessKnight} size={1} />
           </ListItemIcon>
@@ -42,7 +42,7 @@ const Interests = () => {
         <Collapse in={openInterest2}>
           <p>{t("INTEREST_2_TEXT")}</p>
         </Collapse>
-        <ListItemButton onClick={handleChange3}>
+        <ListItemButton disableGutters onClick={handleChange3}>
           <ListItemIcon>
             <Icon path={mdiFencing} size={1} />
           </ListItemIcon>
@@ -52,7 +52,7 @@ const Interests = () => {
         <Collapse in={openInterest3}>
           <p>{t("INTEREST_3_TEXT")}</p>
         </Collapse>
-        <ListItemButton onClick={handleChange4}>
+        <ListItemButton disableGutters onClick={handleChange4}>
           <ListItemIcon>
             <Icon path={mdiDivingScuba} size={1} />
           </ListItemIcon>
@@ -63,6 +63,7 @@ const Interests = () => {
           <p>{t("INTEREST_4_TEXT")}</p>
         </Collapse>
       </List>
+      <br></br>
     </div >
   );
 };
