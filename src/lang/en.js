@@ -31,9 +31,13 @@ const en = {
     //INTERESTS section
     INTEREST_TITLE: "Hobbys",
     INTEREST_1: "Video games",
+    INTEREST_1_TEXT: "Strong attachment to the world of video games, regular player of competitive games (Rocket League, Valorant, Counter-Strike), cooperative games (Minecraft, Terraria) or solo games.",
     INTEREST_2: "Chess",
+    INTEREST_2_TEXT: "Regular player on the Chess.com website, intermediate level (1350 ELO in blitz, 1600 ELO in rapid). Recently joined a chess club with the ambition of becoming stronger.",
     INTEREST_3: "Fencing",
+    INTEREST_3_TEXT: "I've been a weekly épée fencer at a club for around 10 years and I occasionally win a few medals in competitions.",
     INTEREST_4: "Scuba diving",
+    INTEREST_4_TEXT: "I train weekly in the pool, I've passed my N2 level and I sometimes take part in diving competitions with my club.",
 
     //EXTERNAL_LINKS Section
     EXTERNAL_LINK_TITLE: "Social links",

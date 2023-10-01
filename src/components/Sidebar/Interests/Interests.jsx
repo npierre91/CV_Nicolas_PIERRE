@@ -30,7 +30,7 @@ const Interests = () => {
           {openInterest1 ? <ExpandLess /> : <ExpandMore />}
         </ListItemButton>
         <Collapse in={openInterest1}>
-          <p>Test</p>
+          <p>{t("INTEREST_1_TEXT")}</p>
         </Collapse>
         <ListItemButton onClick={handleChange2}>
           <ListItemIcon>
@@ -40,7 +40,7 @@ const Interests = () => {
           {openInterest2 ? <ExpandLess /> : <ExpandMore />}
         </ListItemButton>
         <Collapse in={openInterest2}>
-          <p>Test</p>
+          <p>{t("INTEREST_2_TEXT")}</p>
         </Collapse>
         <ListItemButton onClick={handleChange3}>
           <ListItemIcon>
@@ -50,7 +50,7 @@ const Interests = () => {
           {openInterest3 ? <ExpandLess /> : <ExpandMore />}
         </ListItemButton>
         <Collapse in={openInterest3}>
-          <p>Test</p>
+          <p>{t("INTEREST_3_TEXT")}</p>
         </Collapse>
         <ListItemButton onClick={handleChange4}>
           <ListItemIcon>
@@ -60,7 +60,7 @@ const Interests = () => {
           {openInterest4 ? <ExpandLess /> : <ExpandMore />}
         </ListItemButton>
         <Collapse in={openInterest4}>
-          <p>Test</p>
+          <p>{t("INTEREST_4_TEXT")}</p>
         </Collapse>
       </List>
     </div >
