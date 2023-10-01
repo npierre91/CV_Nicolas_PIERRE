@@ -1,7 +1,8 @@
 const fr = {
     // PROFILE Section
     PROFILE_TITLE: "Profil",
-    PROFILE_TEXT: "Lorem Ipsum",
+    PROFILE_TEXT: "Ingénieur passionné par les technologies web et diplômé, j'ai 2 ans d'expérience à mon actif en start-up où j'ai pu progresser et évoluer rapidement. Je recherche actuellement un nouvel emploi en tant que développeur web, chef de projet ou conseiller en informatique pour commencer dès le mois de février 2024.",
+    PROFILE_TEXT_2: "Je suis rigoureux, polyvalent, déterminé et j'aime relever sans cesse de nouveaux défis. J'ai une très bonne capacité d'adaptation et je suis toujours à l'écoute des personnes qui m'entourent.",
 
     //FORMATIONS Section
     FORMATION_TITLE: "Formations",

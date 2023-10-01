@@ -1,6 +1,5 @@
 const formationsData = {
   fr: [
-
     {
       title: "Diplôme d'Ingénieur Civil des Mines de Saint-Etienne",
       date: "2022",

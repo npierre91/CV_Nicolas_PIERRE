@@ -9,6 +9,9 @@ const Profile = () => {
       <p>
         {t('PROFILE_TEXT')}
       </p>
+      <p>
+        {t("PROFILE_TEXT_2")}
+      </p>
     </div>
   );
 };

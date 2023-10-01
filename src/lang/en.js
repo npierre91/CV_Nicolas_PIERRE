@@ -1,7 +1,8 @@
 const en = {
     // PROFILE Section
     PROFILE_TITLE: "Profile",
-    PROFILE_TEXT: "Lorem Ipsum but in english",
+    PROFILE_TEXT: "As an engineer with a passion for web technologies and a degree, I have 2 years' experience in a start-up where I was able to progress and grow rapidly. I'm currently looking for a new job as a web developer, project manager or IT consultant to start in February 2024.",
+    PROFILE_TEXT_2: "I am rigorous, polyvalent and determined, and I always like to take on new challenges. I'm very flexible and I'm always ready to listen to the people around me.",
 
     //FORMATIONS Section
     FORMATION_TITLE: "Formations",
