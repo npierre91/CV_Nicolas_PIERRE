@@ -27,6 +27,7 @@ const en = {
     USER_BIRTHDATE: "Birth date: 9th August 1998",
     USER_BIRTHPLACE: "Birth Location: Massy, France",
     USER_DRIVING_LICENSE: "French driving license",
+    USER_BOAT_LICENSE: "French boat license",
 
     //INTERESTS section
     INTEREST_TITLE: "Hobbys",
@@ -38,6 +39,8 @@ const en = {
     INTEREST_3_TEXT: "I've been a weekly épée fencer at a club for around 10 years and I occasionally win a few medals in competitions.",
     INTEREST_4: "Scuba diving",
     INTEREST_4_TEXT: "I train weekly in the pool, I've passed my N2 level and I sometimes take part in diving competitions with my club.",
+    INTEREST_5: "Photography",
+    INTEREST_5_TEXT: "President of the Ecole des Mines photography and video club for 2019-2020.",
 
     //EXTERNAL_LINKS Section
     EXTERNAL_LINK_TITLE: "Social links",

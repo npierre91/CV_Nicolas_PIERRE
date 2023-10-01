@@ -27,6 +27,7 @@ const fr = {
     USER_BIRTHDATE: "Date de naissance: 9 Août 1998",
     USER_BIRTHPLACE: "Lieu de naissance: Massy",
     USER_DRIVING_LICENSE: "Permis de conduire français",
+    USER_BOAT_LICENSE: "Permis bateau côtier français",
 
     //INTERESTS section
     INTEREST_TITLE: "Centres d'intérêts",
@@ -38,6 +39,8 @@ const fr = {
     INTEREST_3_TEXT: "Pratique hebdomadaire de l'épée en club depuis environ 10 ans, je gagne parfois quelques médailles en compétitions.",
     INTEREST_4: "Plongée subaquatique",
     INTEREST_4_TEXT: "Je m'entraine de manière hebdomadaire en piscine, j'ai passé mon niveau 2 de plongée et je fais parfois des compétitions de plongée sportive en piscine avec mon club.",
+    INTEREST_5: "Photographie",
+    INTEREST_5_TEXT: "Président du club de photographie et de vidéo de l'Ecole des Mines lors de l'année 2019-2020.",
 
     //EXTERNAL_LINKS Section
     EXTERNAL_LINK_TITLE: "Réseaux sociaux",

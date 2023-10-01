@@ -5,6 +5,7 @@ const useInterests = () => {
     const [openInterest2, setOpenInterest2] = React.useState(false);
     const [openInterest3, setOpenInterest3] = React.useState(false);
     const [openInterest4, setOpenInterest4] = React.useState(false);
+    const [openInterest5, setOpenInterest5] = React.useState(false);
 
     const handleChange1 = () => {
         setOpenInterest1((prev) => !prev);
@@ -18,6 +19,9 @@ const useInterests = () => {
     const handleChange4 = () => {
         setOpenInterest4((prev) => !prev);
     };
+    const handleChange5 = () => {
+        setOpenInterest5((prev) => !prev);
+    };
 
 
     return {
@@ -25,10 +29,12 @@ const useInterests = () => {
         openInterest2,
         openInterest3,
         openInterest4,
+        openInterest5,
         handleChange1,
         handleChange2,
         handleChange3,
         handleChange4,
+        handleChange5,
     }
 }
 

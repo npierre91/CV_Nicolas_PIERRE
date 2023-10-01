@@ -1,6 +1,6 @@
 import React from 'react';
 import Icon from '@mdi/react';
-import { mdiController, mdiChessKnight, mdiFencing, mdiDivingScuba } from '@mdi/js';
+import { mdiController, mdiChessKnight, mdiFencing, mdiDivingScuba, mdiCamera } from '@mdi/js';
 import { useTranslation } from '../../../lib/intl';
 import { Collapse, List, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
 import useInterests from './useInterests';
@@ -13,10 +13,12 @@ const Interests = () => {
     openInterest2,
     openInterest3,
     openInterest4,
+    openInterest5,
     handleChange1,
     handleChange2,
     handleChange3,
     handleChange4,
+    handleChange5,
   } = useInterests()
   return (
     <div className="interest__list">
@@ -61,6 +63,16 @@ const Interests = () => {
         </ListItemButton>
         <Collapse in={openInterest4}>
           <p>{t("INTEREST_4_TEXT")}</p>
+        </Collapse>
+        <ListItemButton disableGutters onClick={handleChange5}>
+          <ListItemIcon>
+            <Icon path={mdiCamera} size={1} />
+          </ListItemIcon>
+          <ListItemText primary={t("INTEREST_5")} />
+          {openInterest5 ? <ExpandLess /> : <ExpandMore />}
+        </ListItemButton>
+        <Collapse in={openInterest5}>
+          <p>{t("INTEREST_5_TEXT")}</p>
         </Collapse>
       </List>
       <br></br>

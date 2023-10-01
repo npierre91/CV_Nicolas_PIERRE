@@ -11,8 +11,8 @@ const Skills = () => {
       <div className="skills">
         <h2 className="h2">{t("SKILL_TITLE")}</h2>
         <Skill title="HTML/CSS" rating="3" />
-        <Skill title="JS/TYPESCRIPT" rating="4" />
-        <Skill title="REACT" rating="3" />
+        <Skill title="JS/TYPESCRIPT" rating="3" />
+        <Skill title="REACT" rating="4" />
         <Skill title="GRAPHQL" rating="4" />
         <Skill title="NODE" rating="3" />
         <Skill title="PYTHON" rating="4" />
