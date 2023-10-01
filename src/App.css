@@ -182,6 +182,7 @@ li {
   width: 12px;
   height: 12px;
   margin-right: 8px;
+  margin-bottom: 8px;
   border-radius: 50%;
   background-color: var(--circle-color);
 }
