@@ -4,6 +4,7 @@ import Skill from "./Skill";
 import Interests from "./Interests/Interests";
 import { useTranslation } from "../../lib/intl";
 
+
 const Skills = () => {
   const { t } = useTranslation()
   return (
@@ -22,6 +23,7 @@ const Skills = () => {
         <Skill title={t("LANGUAGE_FRENCH")} rating="5" />
         <Skill title={t("LANGUAGE_ENGLISH")} rating="4" />
         <Skill title={t("LANGUAGE_GERMAN")} rating="2" />
+        {t("LANGUAGE_TOEIC_TEXT")}{t("LANGUAGE_TOEIC_SCORE")}
       </div>
       <Interests />
     </>

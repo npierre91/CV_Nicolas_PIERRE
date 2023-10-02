@@ -1,0 +1,12 @@
+.interests {
+    padding-top: 8px;
+}
+
+.interest__list {
+    align-items: center;
+    padding-top: auto;
+}
+
+.interests svg {
+    margin: var(--spacing-1);
+}

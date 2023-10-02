@@ -1,11 +1,13 @@
 const en = {
     // PROFILE Section
     PROFILE_TITLE: "Profile",
-    PROFILE_TEXT: "As an engineer with a passion for web technologies and a degree, I have 2 years' experience in a start-up where I was able to progress and grow rapidly. I'm currently looking for a new job as a web developer, project manager or IT consultant to start in February 2024.",
+    PROFILE_TEXT: "As an engineer with a degree, I have a passion for web technologies. I have 2 years' experience in a start-up where I was able to progress and grow rapidly. I'm currently looking for a new job as a web developer, project manager or IT consultant to start in February 2024.",
     PROFILE_TEXT_2: "I am rigorous, polyvalent and determined, and I always like to take on new challenges. I'm very flexible and I'm always ready to listen to the people around me.",
 
     //FORMATIONS Section
     FORMATION_TITLE: "Formations",
+    FORMATION_OPTIONS_TITLE: "Courses attended :",
+    FORMATION_PROJECTS_TITLE: "Projects and associations :",
 
     //EXPERIENCES Section
     EXPERIENCE_TITLE: "Professional experience",
@@ -18,6 +20,8 @@ const en = {
     LANGUAGE_FRENCH: "French",
     LANGUAGE_ENGLISH: "English",
     LANGUAGE_GERMAN: "German",
+    LANGUAGE_TOEIC_TEXT: "TOEIC : ",
+    LANGUAGE_TOEIC_SCORE: "930",
 
     //USER Section
     USER_FULLNAME: "Nicolas PIERRE",
@@ -32,16 +36,16 @@ const en = {
 
     //INTERESTS section
     INTEREST_TITLE: "Hobbys",
-    INTEREST_1: "Video games",
-    INTEREST_1_TEXT: "Strong attachment to the world of video games, regular player of competitive games (Rocket League, Valorant, Counter-Strike), cooperative games (Minecraft, Terraria) or solo games.",
-    INTEREST_2: "Chess",
-    INTEREST_2_TEXT: "Regular player on the Chess.com website, intermediate level (1350 ELO in blitz, 1600 ELO in rapid). Recently joined a chess club with the ambition of becoming stronger.",
-    INTEREST_3: "Fencing",
-    INTEREST_3_TEXT: "I've been a weekly épée fencer at a club for around 10 years and I have won a few medals in competitions. I aim at winning even more in the years to come.",
-    INTEREST_4: "Scuba diving",
-    INTEREST_4_TEXT: "I train weekly in the pool, I've passed my N2 level and I take part in diving competitions with my club.",
-    INTEREST_5: "Photography",
-    INTEREST_5_TEXT: "President of the Ecole des Mines photography and video club for 2019-2020.",
+    INTEREST_1: "Scuba diving",
+    INTEREST_1_TEXT: "I train weekly in the pool, I've passed my N2 level and I take part in diving competitions with my club.",
+    INTEREST_2: "Fencing",
+    INTEREST_2_TEXT: "I've been a weekly épée fencer at a club for around 10 years and I have won a few medals in competitions. I aim at winning even more in the years to come.",
+    INTEREST_3: "Chess",
+    INTEREST_3_TEXT: "Regular player on the Chess.com website, I have an intermediate level (1350 ELO in blitz, 1600 ELO in rapid). I recently joined a chess club with the ambition of becoming stronger.",
+    INTEREST_4: "Photography",
+    INTEREST_4_TEXT: "President of the Ecole des Mines photography and video club for 2019-2020.",
+    INTEREST_5: "Video games",
+    INTEREST_5_TEXT: "Strong attachment to the world of video games, regular player of competitive games (Rocket League, Valorant, Counter-Strike), cooperative games (Minecraft, Terraria) or solo games.",
 
     //EXTERNAL_LINKS Section
     EXTERNAL_LINK_TITLE: "Social links",
