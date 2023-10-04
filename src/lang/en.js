@@ -3,6 +3,7 @@ const en = {
     PROFILE_TITLE: "Profile",
     PROFILE_TEXT: "As an engineer with a degree, I have a passion for web technologies. I have 2 years' experience in a start-up where I was able to progress and grow rapidly. I'm currently looking for a new job as a web developer, project manager or IT consultant to start in February 2024.",
     PROFILE_TEXT_2: "I am rigorous, polyvalent and determined, and I always like to take on new challenges. I'm very flexible and I'm always ready to listen to the people around me.",
+    PROFILE_TEXT_3: "I have experience in project management, finding real satisfaction in working on exciting initiatives and building effective bridges between the business requirements and the technical aspects of IT development.",
 
     //FORMATIONS Section
     FORMATION_TITLE: "Formations",
