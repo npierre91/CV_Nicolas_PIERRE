@@ -42,7 +42,7 @@ const fr = {
     INTEREST_2: "Escrime",
     INTEREST_2_TEXT: "Pratique hebdomadaire de l'épée en club depuis environ 10 ans, j'ai gagné quelques médailles en compétitions et je projette d'en gagner davantage.",
     INTEREST_3: "Echecs",
-    INTEREST_3_TEXT: "Joueur régulier sur le site Chess.com, niveau intermédiaire (1350 ELO en blitz, 1600 ELO en rapide), je suis depuis peu inscrit dans un club d'échecs avec pour ambition de progresser.",
+    INTEREST_3_TEXT: "Joueur régulier sur le site Chess.com, niveau intermédiaire ({blitzElo} ELO en blitz, {rapidElo} ELO en rapide), je suis depuis peu inscrit dans un club d'échecs avec pour ambition de progresser.",
     INTEREST_4: "Photographie",
     INTEREST_4_TEXT: "Président du club de photographie et de vidéo de l'Ecole des Mines lors de l'année 2019-2020.",
     INTEREST_5: "Jeux vidéos",

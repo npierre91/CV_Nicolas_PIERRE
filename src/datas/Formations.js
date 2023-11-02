@@ -12,7 +12,8 @@ const formationsData = {
       date: "2016",
       location: "Antony",
     },
-  ], en: [
+  ],
+  en: [
     {
       title: "Mines Saint-Etienne Civil Engineering Diploma",
       date: "2022",

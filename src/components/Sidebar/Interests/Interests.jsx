@@ -5,6 +5,7 @@ import { useTranslation } from '../../../lib/intl';
 import { Collapse, List, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
 import useInterests from './useInterests';
 import { ExpandLess, ExpandMore } from '@mui/icons-material';
+import ChessMe from '../../../datas/ChessProfile';
 import "./Interests.css"
 
 const Interests = () => {
@@ -21,6 +22,9 @@ const Interests = () => {
     handleChange4,
     handleChange5,
   } = useInterests()
+  const blitzElo = ChessMe.ChessStats.data.chess_blitz.last.rating
+  const rapidElo = ChessMe.ChessStats.data.chess_rapid.last.rating
+
   return (
     <div className="interests">
       <h2 className="h2">{t("INTEREST_TITLE")}</h2>
@@ -53,7 +57,7 @@ const Interests = () => {
           {openInterest3 ? <ExpandLess /> : <ExpandMore />}
         </ListItemButton>
         <Collapse in={openInterest3}>
-          <p>{t("INTEREST_3_TEXT")}</p>
+          <p>{t("INTEREST_3_TEXT", { blitzElo: blitzElo, rapidElo: rapidElo })}</p>
         </Collapse>
         <ListItemButton disableGutters onClick={handleChange4}>
           <ListItemIcon>

@@ -17,7 +17,8 @@ const experiencesData = {
       missions: ["Développement d'un réseau de neurones pouvant reconnaître des actions particulières dans une vidéo", "Pré-traitement des données pour les rendre compatibles avec le modèle d'IA développé"]
     },
 
-  ], en: [
+  ],
+  en: [
     {
       title: "Web Developer Engineer - Full Stack",
       date: "04/04/2022 - 12/01/2024",
