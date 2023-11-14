@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import React from 'react';
 
 const Skill = ({ title, rating }) => {
@@ -14,5 +15,10 @@ const Skill = ({ title, rating }) => {
         </div>
     );
 };
+
+Skill.propTypes = {
+    rating: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+  }
 
 export default Skill;

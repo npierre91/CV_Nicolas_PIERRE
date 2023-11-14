@@ -1,4 +1,5 @@
 import React from "react";
+
 import { useTranslation } from "../../lib/intl";
 
 const Profile = () => {

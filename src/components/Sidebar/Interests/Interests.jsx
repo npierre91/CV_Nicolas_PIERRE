@@ -1,11 +1,15 @@
-import React from 'react';
-import Icon from '@mdi/react';
 import { mdiController, mdiChessKnight, mdiFencing, mdiDivingScuba, mdiCamera } from '@mdi/js';
-import { useTranslation } from '../../../lib/intl';
-import { Collapse, List, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
-import useInterests from './useInterests';
+import Icon from '@mdi/react';
 import { ExpandLess, ExpandMore } from '@mui/icons-material';
+import { Collapse, List, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
+import React from 'react';
+
 import ChessMe from '../../../datas/ChessProfile';
+import { useTranslation } from '../../../lib/intl';
+
+
+import useInterests from './useInterests';
+
 import "./Interests.css"
 
 const Interests = () => {
@@ -28,7 +32,7 @@ const Interests = () => {
   return (
     <div className="interests">
       <h2 className="h2">{t("INTEREST_TITLE")}</h2>
-      <List className='interest__list' disablePadding>
+      <List disablePadding className='interest__list'>
         <ListItemButton disableGutters onClick={handleChange1}>
           <ListItemIcon>
             <Icon path={mdiDivingScuba} size={1} />

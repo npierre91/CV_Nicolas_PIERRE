@@ -1,8 +1,11 @@
+import cookies from 'js-cookie'
+import PropTypes from 'prop-types'
+import React from "react";
 import { useIntl } from "react-intl";
+
 import useQueryParams from '../hooks/useQueryParams'
 import lang from "../lang";
-import React from "react";
-import cookies from 'js-cookie'
+
 
 const fallbackLanguage = 'fr'
 const intlLocalCookieKey = 'locale'
@@ -86,6 +89,10 @@ const IntlLangProvider = ({ children }) => {
             {state.isInit ? children : null}
         </IntlLangContext.Provider>
     )
+}
+
+IntlLangProvider.propTypes = {
+    children: PropTypes.node.isRequired
 }
 
 const useTranslation = () => {

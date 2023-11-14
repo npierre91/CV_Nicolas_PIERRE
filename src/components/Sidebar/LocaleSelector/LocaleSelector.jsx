@@ -1,9 +1,10 @@
-import { Menu } from "@mui/material";
-import { MenuItem } from "@mui/material";
-import { useIntlLangContext, availableLanguages } from "../../../lib/intl";
 import IconButton from '@material-ui/core/IconButton';
+import { Menu , MenuItem } from "@mui/material";
 import { IconFlagFR, IconFlagUK } from "material-ui-flags";
 import React from "react";
+
+import { useIntlLangContext, availableLanguages } from "../../../lib/intl";
+
 import useLocaleSelector from "./useLocaleSelector";
 
 const flagList = {

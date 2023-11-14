@@ -1,8 +1,11 @@
-import React from 'react';
-import { useTranslation } from '../../lib/intl';
-import { Collapse, ListItemButton } from '@mui/material';
-import "./FormationsExperiences.css"
 import { ExpandLess, ExpandMore } from '@mui/icons-material';
+import { Collapse, ListItemButton } from '@mui/material';
+import PropTypes from 'prop-types'
+import React from 'react';
+
+import { useTranslation } from '../../lib/intl';
+
+import "./FormationsExperiences.css"
 
 const Formations = ({ datas }) => {
   const { t } = useTranslation()
@@ -14,7 +17,7 @@ const Formations = ({ datas }) => {
     <div className="cursus mb3">
       <h2 className="h2">{t("FORMATION_TITLE")}</h2>
       {datas.map((item, key) => (
-        <div className="grid__row" key={key}>
+        <div key={key} className="grid__row">
           <div className="grid__item">
             <p className="grid__date">{item.date}</p>
           </div>
@@ -40,5 +43,9 @@ const Formations = ({ datas }) => {
     </div>
   );
 };
+
+Formations.propTypes = {
+  datas: PropTypes.array.isRequired
+}
 
 export default Formations;

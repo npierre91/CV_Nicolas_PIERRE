@@ -1,12 +1,14 @@
 import "./App.css";
-import User from "./components/Sidebar/User";
-import Skills from "./components/Sidebar/Skills";
-import Profile from "./components/Main/Profile";
-import FormationsExperiences from "./components/Main/FormationsExperiences";
-import ExternalLinks from "./components/Sidebar/ExternalLinks";
+import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import IntlProvider from "./context/IntlProvider";
+
+import FormationsExperiences from "./components/Main/FormationsExperiences";
+import Profile from "./components/Main/Profile";
+import ExternalLinks from "./components/Sidebar/ExternalLinks";
 import LanguageSelector from "./components/Sidebar/LocaleSelector/LocaleSelector";
+import Skills from "./components/Sidebar/Skills";
+import User from "./components/Sidebar/User";
+import IntlProvider from "./context/IntlProvider";
 // import { Preview, print } from "react-html2pdf";
 // import PictureAsPdfIcon from "@material-ui/icons/PictureAsPdf";
 
