@@ -1,11 +1,11 @@
 import React from "react";
 
 const useInterests = () => {
-    const [openInterest1, setOpenInterest1] = React.useState(true);
-    const [openInterest2, setOpenInterest2] = React.useState(true);
-    const [openInterest3, setOpenInterest3] = React.useState(true);
-    const [openInterest4, setOpenInterest4] = React.useState(true);
-    const [openInterest5, setOpenInterest5] = React.useState(true);
+    const [openInterest1, setOpenInterest1] = React.useState(false);
+    const [openInterest2, setOpenInterest2] = React.useState(false);
+    const [openInterest3, setOpenInterest3] = React.useState(false);
+    const [openInterest4, setOpenInterest4] = React.useState(false);
+    const [openInterest5, setOpenInterest5] = React.useState(false);
 
     const handleChange1 = () => {
         setOpenInterest1((prev) => !prev);

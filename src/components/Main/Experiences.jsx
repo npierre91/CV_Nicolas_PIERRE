@@ -7,7 +7,7 @@ import { useTranslation } from "../../lib/intl";
 
 const Experiences = ({ datas }) => {
   const { t } = useTranslation()
-  const initialStateOpen = [true, true]
+  const initialStateOpen = [false, false]
   const [open, setOpen] = React.useState(initialStateOpen)
   const handleChange = (key) => {
     const newState = open.map((state, index) => {

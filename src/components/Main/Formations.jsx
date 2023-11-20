@@ -9,7 +9,7 @@ import "./FormationsExperiences.css"
 
 const Formations = ({ datas }) => {
   const { t } = useTranslation()
-  const [open, setOpen] = React.useState(true)
+  const [open, setOpen] = React.useState(false)
   const handleChange = () => {
     setOpen((prev) => !prev)
   }
