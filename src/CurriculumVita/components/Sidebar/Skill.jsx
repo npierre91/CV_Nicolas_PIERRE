@@ -19,6 +19,6 @@ const Skill = ({ title, rating }) => {
 Skill.propTypes = {
     rating: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-  }
+}
 
 export default Skill;

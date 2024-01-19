@@ -9,10 +9,10 @@ import SailingIcon from '@mui/icons-material/Sailing';
 import React from 'react';
 
 import './User.css';
-import {useTranslation} from '../../lib/intl';
+import { useTranslation } from '../../lib/intl';
 
 const User = () => {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   return (
     <div className="user">
       <img alt="" className="user__avatar" src="./media/avatar.png" />
