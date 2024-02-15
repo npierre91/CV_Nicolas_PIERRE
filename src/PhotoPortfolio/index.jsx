@@ -1,6 +1,6 @@
 
 
-const GamingRank = () => {
+const PhotoPortfolio = () => {
     return (
         <h1>
             This is still in development, come back later !
@@ -8,4 +8,4 @@ const GamingRank = () => {
     )
 }
 
-export default GamingRank
+export default PhotoPortfolio
