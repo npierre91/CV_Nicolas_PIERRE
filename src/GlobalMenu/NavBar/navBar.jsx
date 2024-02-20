@@ -1,9 +1,11 @@
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import ArticleIcon from '@mui/icons-material/Article';
+import CameraIcon from '@mui/icons-material/Camera';
 import HomeIcon from '@mui/icons-material/Home';
 import MenuIcon from '@mui/icons-material/Menu';
-import React, { useState } from "react";
+import React from "react";
 import { Menu, MenuItem, Sidebar, useProSidebar } from "react-pro-sidebar";
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
     const { collapseSidebar } = useProSidebar()
@@ -29,6 +31,18 @@ const NavBar = () => {
                     onClick={() => { navigate("/cv") }}>
                     {" "}
                     <u>Profile</u>
+                </MenuItem>
+                <MenuItem
+                    icon={<ArticleIcon />}
+                    onClick={() => { navigate("/blog") }}>
+                    {" "}
+                    <u>Blog</u>
+                </MenuItem>
+                <MenuItem
+                    icon={<CameraIcon />}
+                    onClick={() => { navigate("/photosphere") }}>
+                    {" "}
+                    <u>Photosphere</u>
                 </MenuItem>
             </Menu >
         </Sidebar>

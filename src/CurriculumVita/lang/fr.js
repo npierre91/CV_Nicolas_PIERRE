@@ -52,6 +52,9 @@ const fr = {
 
   // EXTERNAL_LINKS Section
   EXTERNAL_LINK_TITLE: 'Réseaux sociaux',
+
+  // Back to main menu button 
+  BACK_TO_MAIN_MENU_BUTTON_TEXT: "Retour au menu principal",
 };
 
 export default fr;
