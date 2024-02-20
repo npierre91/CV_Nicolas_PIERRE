@@ -11,7 +11,7 @@ const useLocaleSelector = () => {
         setAnchorElement(event.currentTarget)
     }
     const handleClick = (lang) => {
-        navigate(`?lang=${lang}`)
+        navigate(`/cv?lang=${lang}`)
     }
     return {
         anchorElement,

@@ -52,6 +52,9 @@ const en = {
 
   // EXTERNAL_LINKS Section
   EXTERNAL_LINK_TITLE: 'Social links',
+
+  // Back to main menu button 
+  BACK_TO_MAIN_MENU_BUTTON_TEXT: "Back to main menu",
 };
 
 export default en;

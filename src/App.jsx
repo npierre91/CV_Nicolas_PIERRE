@@ -15,7 +15,7 @@ function App() {
           <Routes>
             <Route element={<MenuPage />} path='/main-menu' />
             <Route element={<CurriculumVita />} path='/cv' />
-            <Route element={<Navigate replace to="/cv" />} path='*' />
+            <Route element={<Navigate replace to="/main-menu" />} path='*' />
           </Routes>
         </ProSidebarProvider>
       </IntlProvider>

@@ -1,5 +1,6 @@
 import FormationsExperiences from "./components/Main/FormationsExperiences";
 import Profile from "./components/Main/Profile";
+import BackToMainPageButton from "./components/Sidebar/BackButton";
 import ExternalLinks from "./components/Sidebar/ExternalLinks";
 import LanguageSelector from "./components/Sidebar/LocaleSelector/LocaleSelector";
 import Skills from "./components/Sidebar/Skills";
@@ -10,6 +11,7 @@ const CurriculumVita = () => {
     <div className="App">
       <div className="grid__container">
         <div className="sidebar">
+          <BackToMainPageButton />
           <div className="actions">
             <LanguageSelector />
             {/* {<button onClick={()=>{}}><LanguageSelector /></button>} */}
