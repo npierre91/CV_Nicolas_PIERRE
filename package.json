@@ -21,6 +21,7 @@
     "mui": "^0.0.1",
     "react-html2pdf": "^1.0.1",
     "react-intl": "^6.4.7",
+    "react-pro-sidebar": "^1.1.0",
     "react-router-dom": "^6.16.0",
     "react-scripts": "^5.0.1",
     "web-vitals": "^1.1.2"
