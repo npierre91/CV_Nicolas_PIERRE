@@ -1,10 +1,9 @@
+import NavBar from "./NavBar/navBar"
 
 
 const MenuPage = () => {
     return (
-        <h1>
-            This is still in development, come back later !
-        </h1>
+        <NavBar />
     )
 }
 
