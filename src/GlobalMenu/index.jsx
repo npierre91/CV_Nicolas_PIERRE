@@ -1,6 +1,6 @@
 
 
-const PhotoPortfolio = () => {
+const MenuPage = () => {
     return (
         <h1>
             This is still in development, come back later !
@@ -8,4 +8,4 @@ const PhotoPortfolio = () => {
     )
 }
 
-export default PhotoPortfolio
+export default MenuPage

@@ -4,17 +4,15 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
 import CurriculumVita from "./CurriculumVita";
 import IntlProvider from "./CurriculumVita/context/IntlProvider";
-import PhotoPortfolio from "./PhotoPortfolio";
-// import { Preview, print } from "react-html2pdf";
-// import PictureAsPdfIcon from "@material-ui/icons/PictureAsPdf";
+import MenuPage from "./GlobalMenu";
 
 function App() {
   return (
     <BrowserRouter>
       <IntlProvider>
         <Routes>
-          <Route element={<CurriculumVita />} path='/' />
-          <Route element={<PhotoPortfolio />} path='/portfolio' />
+          <Route element={<MenuPage />} path='/' />
+          <Route element={<CurriculumVita />} path='/cv' />
           <Route element={<Navigate replace to="/" />} path='*' />
         </Routes>
       </IntlProvider>
