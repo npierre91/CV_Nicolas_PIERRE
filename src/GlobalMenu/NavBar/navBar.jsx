@@ -9,7 +9,7 @@ const NavBar = () => {
     const { collapseSidebar } = useProSidebar()
     const navigate = useNavigate()
     return (
-        <Sidebar style={{ height: "100vh", display: "flex" }}>
+        <Sidebar defaultCollapsed={true} style={{ height: "100vh", display: "flex" }}>
             <Menu>
                 <MenuItem
                     icon={<MenuIcon />}
