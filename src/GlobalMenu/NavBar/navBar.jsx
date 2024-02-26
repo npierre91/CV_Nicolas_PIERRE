@@ -11,7 +11,9 @@ const NavBar = () => {
     const { collapseSidebar } = useProSidebar()
     const navigate = useNavigate()
     return (
-        <Sidebar defaultCollapsed={true} style={{ height: "100vh", display: "flex" }}>
+        <Sidebar defaultCollapsed={true} style={{
+            height: "100vh", "background-color": "black"
+        }}>
             <Menu>
                 <MenuItem
                     icon={<MenuIcon />}
@@ -44,7 +46,7 @@ const NavBar = () => {
                     {" "}
                     <u>Photosphere</u>
                 </MenuItem>
-            </Menu >
+            </Menu>
         </Sidebar>
     )
 }
