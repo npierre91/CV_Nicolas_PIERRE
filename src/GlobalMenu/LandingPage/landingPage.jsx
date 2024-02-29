@@ -1,9 +1,22 @@
-import TypeWriter from "./TypeWriter/typeWriter"
+import TypewriterComponent from "typewriter-effect"
+import "./landingPage.css"
 
 const LandingPage = () => {
     return (
         <div className="main-page-typewriter">
-            <TypeWriter delay={100} text="Test welcome" />
+            <TypewriterComponent
+                options={{
+                    strings: [
+                        "<span>Test Welcome</span>"
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    delay: 100,
+                    deleteSpeed: 100,
+                    pauseFor: 2500000,
+                    wrapperClassName: "typewriter-content",
+                }}
+            />
         </div>
     )
 }
