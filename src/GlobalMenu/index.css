@@ -1,5 +1,5 @@
 .main-menu-grid__container {
   display: grid;
   grid-template-columns: 1fr 5fr; 
-  background-color: black;
+  background-color: #1E1F22;
 }
