@@ -7,9 +7,12 @@ import React from "react";
 import { Menu, MenuItem, Sidebar, useProSidebar } from "react-pro-sidebar";
 import { useNavigate } from 'react-router-dom';
 
+import { useTranslation } from '../../CurriculumVita/lib/intl';
+
 const NavBar = () => {
     const { collapseSidebar } = useProSidebar()
     const navigate = useNavigate()
+    const { t } = useTranslation()
     return (
         <Sidebar defaultCollapsed={true} style={{
             height: "100vh", "background-color": "black",
@@ -21,19 +24,19 @@ const NavBar = () => {
                     style={{ textAlign: "center" }}
                     onClick={() => collapseSidebar()}>
                     {" "}
-                    <b>Menu</b>
+                    <b>{t("MAIN_MENU_MENU")}</b>
                 </MenuItem>
                 <MenuItem
                     icon={<HomeIcon />}
                     onClick={() => navigate("/main-menu")}>
                     {" "}
-                    <u>Home</u>
+                    <u>{t("MAIN_MENU_HOME")}</u>
                 </MenuItem>
                 <MenuItem
                     icon={<AccountCircleIcon />}
                     onClick={() => navigate("/cv")}>
                     {" "}
-                    <u>Profile</u>
+                    <u>{t("MAIN_MENU_PROFILE")}</u>
                 </MenuItem>
                 <MenuItem
                     icon={<ArticleIcon />}

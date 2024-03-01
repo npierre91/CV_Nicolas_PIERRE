@@ -1,4 +1,8 @@
 const en = {
+  /*
+  * CURRICULUM VITA SECTION
+  */
+
   // PROFILE Section
   PROFILE_TITLE: 'Profile',
   PROFILE_TEXT: 'As an engineer with a degree, I have a passion for web technologies. I have 2 years\' experience in a start-up where I was able to progress and grow rapidly. I\'m currently looking for a new job as a web developer, project manager or IT consultant to start in February 2024.',
@@ -55,6 +59,16 @@ const en = {
 
   // Back to main menu button 
   BACK_TO_MAIN_MENU_BUTTON_TEXT: "Back to main menu",
+
+  /*
+  * MAIN MENU SECTION
+  */
+
+  // SIDEBAR Section
+  MAIN_MENU_HOME: "Home",
+  MAIN_MENU_MENU: "Menu",
+  MAIN_MENU_PROFILE: "Profile",
+
 };
 
 export default en;

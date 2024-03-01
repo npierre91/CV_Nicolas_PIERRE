@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import React from "react";
 import { useIntl } from "react-intl";
 
+import lang from "../../lang";
 import useQueryParams from '../hooks/useQueryParams'
-import lang from "../lang";
 
 
 const fallbackLanguage = 'fr'
