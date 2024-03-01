@@ -12,8 +12,9 @@ const NavBar = () => {
     const navigate = useNavigate()
     return (
         <Sidebar defaultCollapsed={true} style={{
-            height: "100vh", "background-color": "black"
-        }}>
+            height: "100vh", "background-color": "black",
+
+        }} width="200px">
             <Menu>
                 <MenuItem
                     icon={<MenuIcon />}
