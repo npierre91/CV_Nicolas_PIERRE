@@ -1,9 +1,11 @@
 import { ExpandLess, ExpandMore } from "@mui/icons-material";
-import { Collapse, ListItem } from "@mui/material";
+import { Collapse, ListItemButton } from "@mui/material";
 import PropTypes from 'prop-types'
 import React from "react";
 
 import { useTranslation } from "../../lib/intl";
+
+import "./FormationsExperiences.css"
 
 const Experiences = ({ datas }) => {
   const { t } = useTranslation()
@@ -28,10 +30,10 @@ const Experiences = ({ datas }) => {
             <p className="grid__date">{item.date}</p>
           </div>
           <div className="grid__item">
-            <ListItem disableGutters button={true} onClick={() => handleChange(key)}>
+            <ListItemButton disableGutters button={true} onClick={() => handleChange(key)}>
               {open[key] ? <ExpandLess /> : <ExpandMore />}
               <h3 className="grid__title">{item.title}</h3>
-            </ListItem>
+            </ListItemButton>
 
             <p className="grid__location">{item.location}</p>
             <Collapse in={open[key]}>

@@ -19,31 +19,31 @@ const NavBar = () => {
                 <MenuItem
                     icon={<MenuIcon />}
                     style={{ textAlign: "center" }}
-                    onClick={() => { collapseSidebar() }}>
+                    onClick={() => collapseSidebar()}>
                     {" "}
                     <b>Menu</b>
                 </MenuItem>
                 <MenuItem
                     icon={<HomeIcon />}
-                    onClick={() => { navigate("/main-menu") }}>
+                    onClick={() => navigate("/main-menu")}>
                     {" "}
                     <u>Home</u>
                 </MenuItem>
                 <MenuItem
                     icon={<AccountCircleIcon />}
-                    onClick={() => { navigate("/cv") }}>
+                    onClick={() => navigate("/cv")}>
                     {" "}
                     <u>Profile</u>
                 </MenuItem>
                 <MenuItem
                     icon={<ArticleIcon />}
-                    onClick={() => { navigate("/blog") }}>
+                    onClick={() => navigate("/blog")}>
                     {" "}
                     <u>Blog</u>
                 </MenuItem>
                 <MenuItem
                     icon={<CameraIcon />}
-                    onClick={() => { navigate("/photosphere") }}>
+                    onClick={() => navigate("/photosphere")}>
                     {" "}
                     <u>Photosphere</u>
                 </MenuItem>
