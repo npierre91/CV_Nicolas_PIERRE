@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from "react"
 import { IntlProvider as DefaultIntlProvider } from 'react-intl'
 
-import lang from "../lang"
+import lang from "../../lang"
 import { IntlLangProvider, useIntlLangContext } from "../lib/intl"
 
 const CustomIntlProvider = ({ children }) => {

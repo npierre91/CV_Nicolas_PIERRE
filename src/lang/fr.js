@@ -1,4 +1,8 @@
 const fr = {
+  /*
+  * CURRICULUM VITA SECTION
+  */
+
   // PROFILE Section
   PROFILE_TITLE: 'Profil',
   PROFILE_TEXT: 'Ingénieur diplômé en 2022, je suis passionné par les technologies web. J\'ai 2 ans d\'expérience à mon actif en start-up où j\'ai pu progresser et évoluer rapidement. Je recherche actuellement un nouvel emploi en tant que développeur web, gestionnaire de projet ou consultant en informatique pour commencer dès le mois de février 2024.',
@@ -55,6 +59,16 @@ const fr = {
 
   // Back to main menu button 
   BACK_TO_MAIN_MENU_BUTTON_TEXT: "Retour au menu principal",
+
+  /*
+  * MAIN MENU SECTION
+  */
+
+  // SIDEBAR Section
+  MAIN_MENU_HOME: "Accueil",
+  MAIN_MENU_MENU: "Menu",
+  MAIN_MENU_PROFILE: "Profil",
+
 };
 
 export default fr;
