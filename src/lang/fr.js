@@ -69,6 +69,9 @@ const fr = {
   MAIN_MENU_MENU: "Menu",
   MAIN_MENU_PROFILE: "Profil",
 
+  // SECOND PAGE Section
+  REDIRECT_TO_CV_FROM_MAIN_PAGE: "Voir mon profil"
+
 };
 
 export default fr;

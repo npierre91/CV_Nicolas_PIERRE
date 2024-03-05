@@ -4,7 +4,7 @@ import ReactPageScroller from 'react-page-scroller';
 import LandingPage from "./LandingPage/landingPage";
 import NavBar from "./NavBar/navBar"
 import "./index.css";
-import SecondPage from './SecondPage/secondePage';
+import SecondPage from './SecondPage/secondPage';
 
 
 const MenuPage = () => {
