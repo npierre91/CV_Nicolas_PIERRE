@@ -36,6 +36,7 @@
   --spacing-5: 2rem;
 
   --transition-duration-mode: 0.7s;
+  overflow-x: hidden;
 }
 
 /* Transition pour changement de mode */

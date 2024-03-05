@@ -6,12 +6,12 @@
 .typewriter-content {
     color: #7EB2CD;
     line-height: 1em;
-    width: 95%;
+    width: 80%;
     font-size: 800%;
     text-align: left;
     font-family: "VCR OSD MONO", monospace;
     margin-top: 2em;
-    margin-left: -0.5em;
+    margin-left: 0.5em;
     display:inline-block;
 }
 
