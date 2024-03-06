@@ -14,7 +14,7 @@ const SecondPage = () => {
     const navigate = useNavigate()
     const { t } = useTranslation()
     return (
-        <>
+        <div className="container-second-page">
             <div className="main-page-typewriter">
                 <TypewriterComponent
                     options={{
@@ -31,7 +31,7 @@ const SecondPage = () => {
             <Button className="button-redirect-to-cv" variant="contained" onClick={() => navigate("/cv")}>
                 {t("REDIRECT_TO_CV_FROM_MAIN_PAGE")}
             </Button>
-        </>
+        </div>
     );
 };
 

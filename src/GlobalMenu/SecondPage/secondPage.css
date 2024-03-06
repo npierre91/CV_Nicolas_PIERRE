@@ -1,4 +1,8 @@
+.container-second-page {
+    position: relative;
+}
+
 .button-redirect-to-cv {
     position: absolute;
-    transform: translate(500%, 100%);
+    transform: translate(500%, 2000%);
 }
