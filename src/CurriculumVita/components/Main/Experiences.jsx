@@ -36,16 +36,16 @@ const Experiences = ({ datas }) => {
             <p className="grid__location">{item.location}</p>
             <Collapse in={open[key]}>
               <p className="grid__text">{item.text}</p>
-              <h5 className="grid__titleTechnos">{t("EXPERIENCE_TECHNOS")}</h5>
-              <ul className="grid__technos">
-                {item.technos.map((techno, k) => (
-                  <li key={k} className="grid_techno">{techno}</li>
-                ))}
-              </ul>
               <h5 className="grid__titleMissions">{t("EXPERIENCE_MISSIONS")}</h5>
               <ul className="grid__missions">
                 {item.missions.map((mission, k) => (
                   <li key={k} className="grid_missions">{mission}</li>
+                ))}
+              </ul>
+              <h5 className="grid__titleTechnos">{t("EXPERIENCE_TECHNOS")}</h5>
+              <ul className="grid__technos">
+                {item.technos.map((techno, k) => (
+                  <li key={k} className="grid_techno">{techno}</li>
                 ))}
               </ul>
             </Collapse>
