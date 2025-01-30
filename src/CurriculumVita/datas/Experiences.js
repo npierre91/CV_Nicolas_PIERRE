@@ -4,9 +4,9 @@ const experiencesData = {
       title: "Ingénieur consultant en développement web",
       date: "13/05/2024 - maintenant",
       location: "SOLUTEC, Paris",
-      text: "Je suis actuellement consultant en mission pour SOLUTEC dans une grande banque française. Je suis responsable d'applications spécifiques à cette banque et pour lesquelles je réalise le suivi de leur cycle de vie",
-      technos: ["Java, Docker, Ansible, JavaScript, Python, Linux"],
-      missions: ["Responsable d'applications dans une grande banque française"]
+      text: "Je suis actuellement consultant en mission pour SOLUTEC dans une grande banque française. J'occupe le poste d'analyste développeur dans un projet informatique dans le domaine de l'affacturage, où je réalise la conception fonctionnelle d'une application, ainsi que la conception technique dans un framework basé sur C# .NET.",
+      technos: ["C#, .NET, Framework spécifique à la mission, Cycle en V, Spécifications fonctionnelles, Spécifications techniques"],
+      missions: ["Analyste développeur dans une grande banque française dans le domaine de l'affacturage"]
     },
     {
       title: "Ingénieur développeur Web - Full Stack",
@@ -30,9 +30,9 @@ const experiencesData = {
       title: "Consultant engineer in web development",
       date: "13/05/2024 - now",
       location: "SOLUTEC, Paris",
-      text: "I am currently a consultant for SOLUTEC in a mission with a great French bank firm. I am responsible for the lifecycle of applications specific to this bank",
-      technos: ["Java, Docker, Ansible, JavaScript, Python, Linux"],
-      missions: ["Application manager for a great French bank"]
+      text: "I'm currently working as a consultant for SOLUTEC in a major French bank. I'm working as an analyst-developer on an IT project in the field of factoring, where I'm responsible for the functional design of an application, as well as the technical design in a C# .NET-based framework.",
+      technos: ["C#, .NET, Specific Framework, V-Cycle, Functional specifications, Technical specifications"],
+      missions: ["Development analyst for a major French bank in the factoring sector"]
     },
     {
       title: "Web Developer Engineer - Full Stack",

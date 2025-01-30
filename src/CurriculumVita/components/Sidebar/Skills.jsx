@@ -13,12 +13,12 @@ const Skills = () => {
     <>
       <div className="skills">
         <h2 className="h2">{t("SKILL_TITLE")}</h2>
+        <Skill rating="4" title={t("SKILL_ANALYSIS")} />
         <Skill rating="3" title="HTML/CSS" />
-        <Skill rating="3" title="JS/TYPESCRIPT" />
-        <Skill rating="4" title="REACT" />
+        <Skill rating="4" title="JS/TYPESCRIPT/REACT" />
         <Skill rating="4" title="GRAPHQL" />
-        <Skill rating="3" title="NODE" />
         <Skill rating="4" title="PYTHON" />
+        <Skill rating="2" title="C# .NET" />
       </div>
       <div className="skills">
         <h2 className="h2">{t("LANGUAGE_TITLE")}</h2>

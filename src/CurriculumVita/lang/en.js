@@ -17,6 +17,7 @@ const en = {
 
   // SKILLS Section
   SKILL_TITLE: 'Skills',
+  SKILL_ANALYSIS: 'FUNCTIONAL ANALYSIS',
 
   // LANGUAGES Section
   LANGUAGE_TITLE: 'Languages',
