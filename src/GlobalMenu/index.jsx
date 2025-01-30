@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactPageScroller from 'react-page-scroller';
 
 import LandingPage from "./LandingPage/landingPage";
 import NavBar from "./NavBar/navBar"
@@ -17,10 +16,8 @@ const MenuPage = () => {
             <div className="main-menu-sidebar">
                 <NavBar />
             </div>
-            <ReactPageScroller pageOnChange={handlePageChange}>
-                <LandingPage />
-                <SecondPage />
-            </ReactPageScroller>
+            <LandingPage />
+            <SecondPage />
         </div>
     )
 }
