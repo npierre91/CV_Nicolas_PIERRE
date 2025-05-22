@@ -16,7 +16,6 @@ const Skills = () => {
         <Skill rating="4" title={t("SKILL_ANALYSIS")} />
         <Skill rating="3" title="HTML/CSS" />
         <Skill rating="4" title="JS/TYPESCRIPT/REACT" />
-        <Skill rating="4" title="GRAPHQL" />
         <Skill rating="4" title="PYTHON" />
         <Skill rating="2" title="C# .NET" />
       </div>
