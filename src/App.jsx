@@ -1,5 +1,6 @@
 import "./App.css";
 import { ThemeProvider } from "@mui/material";
+import { createTheme } from "@mui/material/styles";
 import React from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
@@ -9,9 +10,11 @@ import PhotoPortfolio from "./PhotoPortfolio";
 // import { Preview, print } from "react-html2pdf";
 // import PictureAsPdfIcon from "@material-ui/icons/PictureAsPdf";
 
+const theme = createTheme()
+
 function App() {
   return (
-    <ThemeProvider>
+    <ThemeProvider theme={theme}>
       <BrowserRouter>
         <IntlProvider>
           <Routes>
