@@ -1,14 +1,14 @@
+/* eslint-disable react/jsx-pascal-case */
 import { Menu, MenuItem, IconButton } from "@mui/material";
-import { IconFlagFR, IconFlagUK } from "material-ui-flags";
-import React from "react";
+import { ReactCountryFlag } from "react-country-flag";
 
 import { useIntlLangContext, availableLanguages } from "../../../lib/intl";
 
 import useLocaleSelector from "./useLocaleSelector";
 
 const flagList = {
-    fr: <IconFlagFR />,
-    en: <IconFlagUK />,
+    fr: <ReactCountryFlag svg countryCode="fr" />,
+    en: <ReactCountryFlag svg countryCode="gb" />,
 }
 
 const LocaleSelector = () => {
