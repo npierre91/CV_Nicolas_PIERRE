@@ -1,4 +1,5 @@
 import "./App.css";
+import { ThemeProvider } from "@material-ui/core";
 import React from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
@@ -10,15 +11,17 @@ import PhotoPortfolio from "./PhotoPortfolio";
 
 function App() {
   return (
-    <BrowserRouter>
-      <IntlProvider>
-        <Routes>
-          <Route element={<CurriculumVita />} path='/' />
-          <Route element={<PhotoPortfolio />} path='/portfolio' />
-          <Route element={<Navigate replace to="/" />} path='*' />
-        </Routes>
-      </IntlProvider>
-    </BrowserRouter>
+    <ThemeProvider>
+      <BrowserRouter>
+        <IntlProvider>
+          <Routes>
+            <Route element={<CurriculumVita />} path='/' />
+            <Route element={<PhotoPortfolio />} path='/portfolio' />
+            <Route element={<Navigate replace to="/" />} path='*' />
+          </Routes>
+        </IntlProvider>
+      </BrowserRouter>
+    </ThemeProvider>
   );
 }
 
