@@ -1,11 +1,10 @@
-
-import EventIcon from '@material-ui/icons/Event';
-import HomeIcon from '@material-ui/icons/Home';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
-import MailIcon from '@material-ui/icons/Mail';
-import PhoneIcon from '@material-ui/icons/Phone';
 import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
+import EventIcon from '@mui/icons-material/Event';
+import HomeIcon from '@mui/icons-material/Home';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import MailIcon from '@mui/icons-material/Mail';
 import SailingIcon from '@mui/icons-material/Sailing';
+import SmartphoneIcon from '@mui/icons-material/Smartphone';
 import React from 'react';
 
 import './User.css';
@@ -24,7 +23,7 @@ const User = () => {
           {t('USER_ADDRESS')}
         </p>
         <p className="user__info">
-          <PhoneIcon />
+          <SmartphoneIcon />
           <a href="te:+33651897248">{t('USER_PHONE')}</a>
         </p>
         <p className="user__info">

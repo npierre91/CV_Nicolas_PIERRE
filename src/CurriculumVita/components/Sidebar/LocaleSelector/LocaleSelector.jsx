@@ -1,5 +1,4 @@
-import IconButton from '@material-ui/core/IconButton';
-import { Menu, MenuItem } from "@mui/material";
+import { Menu, MenuItem, IconButton } from "@mui/material";
 import { IconFlagFR, IconFlagUK } from "material-ui-flags";
 import React from "react";
 
