@@ -6,7 +6,7 @@ const experiencesData = {
       location: "SOLUTEC, Paris",
       text: "Je suis actuellement consultant en mission pour SOLUTEC dans une grande banque française. J'occupe le poste d'analyste développeur dans un projet informatique dans le domaine de l'affacturage, où je réalise la conception fonctionnelle d'une application, ainsi que la conception technique dans un framework basé sur C# .NET.",
       technos: ["C#, .NET, Framework spécifique à la mission, Cycle en V, Spécifications fonctionnelles, Spécifications techniques"],
-      missions: ["Analyste développeur dans une grande banque française dans le domaine de l'affacturage"]
+      missions: ["Analyste développeur pour Euro Information Développement dans le domaine de l'affacturage", "Conception fonctionnelle, technique et développement de projets dans le cadre d'une refonte du système d'informations d'Euro Information Développement"]
     },
     {
       title: "Ingénieur développeur Web - Full Stack",
@@ -32,7 +32,7 @@ const experiencesData = {
       location: "SOLUTEC, Paris",
       text: "I'm currently working as a consultant for SOLUTEC in a major French bank. I'm working as an analyst-developer on an IT project in the field of factoring, where I'm responsible for the functional design of an application, as well as the technical design in a C# .NET-based framework.",
       technos: ["C#, .NET, Specific Framework, V-Cycle, Functional specifications, Technical specifications"],
-      missions: ["Development analyst for a major French bank in the factoring sector"]
+      missions: ["Development analyst for Euro Information Développement in the factoring sector", "Functional and technical conception and web developments for Euro Information Development's reworking of their information system"]
     },
     {
       title: "Web Developer Engineer - Full Stack",
